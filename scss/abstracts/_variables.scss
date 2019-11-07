@@ -1,0 +1,36 @@
+// =======================================
+// Variables
+// =======================================
+
+// Variables should follow the `$component-state-property-size` formula for
+// consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
+
+// 1 - Icomoon variables
+// 2 - Color system
+// 3 - Components
+// 4 - Fonts
+// 5 - Body
+// 6 - Links
+// 7 - Grid containers
+// 8 - Buttons + Forms
+// 9 - Buttons
+// 10 - Forms
+// 11 - Alerts
+// 12 - Popovers
+// 13 - Transitions
+// =======================================
+@import "variables/icomoon-variables";
+
+@import "variables/color-system";
+@import "variables/spacing";
+@import "variables/components";
+@import "variables/fonts";
+@import "variables/body";
+@import "variables/links";
+@import "variables/container";
+@import "variables/buttons-forms";
+@import "variables/buttons";
+@import "variables/forms";
+@import "variables/alerts";
+@import "variables/popovers";
+@import "variables/transitions";

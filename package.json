@@ -1,0 +1,24 @@
+{
+	"name": "lesson_8",
+	"version": "1.0.0",
+	"description": "",
+	"main": "app.js",
+	"scripts": {
+		"start": "parcel *.html --open --port 4200 --no-cache",
+		"build": "parcel build *.html",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"modules": "^0.4.0",
+		"parcel": "^1.12.4",
+		"sass": "^1.23.3",
+		"vue": "^2.6.10",
+		"vue-hot-reload-api": "^2.3.4"
+	},
+	"devDependencies": {
+		"@vue/component-compiler-utils": "^3.0.2",
+		"vue-template-compiler": "^2.6.10"
+	}
+}
