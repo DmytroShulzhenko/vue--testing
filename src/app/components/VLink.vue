@@ -35,7 +35,7 @@
 <style lang="scss" scoped>
 	@import "../../assets/scss/settings";
 
-	.active {
+	a.active, a:hover {
 		color: $link-hover-color;
 	}
 </style>

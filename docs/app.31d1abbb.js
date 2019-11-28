@@ -37,4 +37,4 @@ var e=function e(t,r){return t.tagName===r?t:t.parentNode&&e(t.parentNode,r)};mo
 },{"./Router.vue":"dsWM","./pages/HomePage.vue":"YDI3","./pages/404Page.vue":"POu4","./pages/CarouselPage.vue":"iW6v","./pages/QuoteFormPage.vue":"ZGpg","./pages/QuotesListPage.vue":"P9Oy"}],"XHoE":[function(require,module,exports) {
 "use strict";require("../assets/scss/main.scss");var e=s(require("vue")),u=s(require("./components/Application.vue.vue"));function s(e){return e&&e.__esModule?e:{default:e}}var r=new e.default(u.default);r.$mount("#app"),window.app=r;
 },{"../assets/scss/main.scss":"SVAQ","vue":"NtAQ","./components/Application.vue.vue":"pMKT"}]},{},["XHoE"], null)
-//# sourceMappingURL=app.335d7500.js.map
+//# sourceMappingURL=app.31d1abbb.js.map
