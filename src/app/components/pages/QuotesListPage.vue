@@ -7,7 +7,7 @@
 				<div>
 					<div class="user-info">
 						<div class="user-img">
-							<img src="../../images/user.jpg"
+							<img src="../../../assets/images/user.jpg"
 							     width="200" height="200" alt="image description">
 						</div>
 						<div class="info">
@@ -41,7 +41,7 @@
 </script>
 
 <style lang="scss" scoped>
-	@import "../../scss/settings";
+	@import "../../../assets/scss/settings";
 
 	.post-list {
 		@extend %listreset;

@@ -6,7 +6,7 @@
 </template>
 
 <script>
-	import matchEventToTag from './modules/match-event-to-tag';
+	import matchEventToTag from '../modules/match-event-to-tag';
 
 	export default {
 		props: ['routes'],
@@ -34,7 +34,7 @@
 </script>
 
 <style lang="scss" scoped>
-	@import "../scss/settings";
+	@import "../../assets/scss/settings";
 
 	.router {
 		@include size(100%);

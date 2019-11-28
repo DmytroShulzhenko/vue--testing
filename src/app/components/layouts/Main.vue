@@ -10,16 +10,16 @@
 			<li>
 				<v-link href="/quote">create new quote</v-link>
 			</li>
-			<li>
-				<v-link href="/quotes-list">show all quotes</v-link>
-			</li>
+			<!--<li>-->
+				<!--<v-link href="/quotes-list">show all quotes</v-link>-->
+			<!--</li>-->
 		</ul>
 		<slot></slot>
 	</div>
 </template>
 
 <script>
-	import VLink from '../components/VLink.vue';
+	import VLink from '../VLink.vue';
 
 	export default {
 		components: {
@@ -29,7 +29,7 @@
 </script>
 
 <style lang="scss" scoped>
-	@import "../../scss/settings";
+	@import "../../../assets/scss/settings";
 
 	.nav {
 		@extend %listreset;

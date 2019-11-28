@@ -1,7 +1,7 @@
-import '../scss/main.scss';
+import '../assets/scss/main.scss';
 
 import Vue from 'vue';
-import App from './App.vue';
+import App from './components/Application.vue.vue';
 
 const app = new Vue(App);
 app.$mount('#app');

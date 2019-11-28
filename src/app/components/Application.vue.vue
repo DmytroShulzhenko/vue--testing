@@ -9,7 +9,7 @@
 <script>
 	import Router from './Router.vue';
 
-	import HomePage from  './pages/HomePage.vue';
+	import HomePage from './pages/HomePage.vue';
 	import NotFoundPage from './pages/404Page.vue';
 	import CarouselComponent from './pages/CarouselPage.vue';
 	import QuoteFormComponent from './pages/QuoteFormPage.vue';
